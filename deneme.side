@@ -1,0 +1,131 @@
+{
+  "id": "e314071e-8d41-414c-85a3-1bbbcab64ed2",
+  "version": "2.0",
+  "name": "yemek.com",
+  "url": "https://yemek.com",
+  "tests": [{
+    "id": "0f3ea76c-9225-436c-93ca-ccb48f03a0dd",
+    "name": "deneme1",
+    "commands": [{
+      "id": "d2a087af-3d22-4a0b-99e0-2930a099f754",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb45c708-6002-4909-ae53-389aa79b806b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ae232b2-b276-4ece-86ba-0c61dd5edca5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Header_menu__MK9I5",
+      "targets": [
+        ["css=.Header_menu__MK9I5", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/nav/div/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7451d97-bb71-4fa5-b98a-2e4cc036884d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CategoryMenuModal_boxWrapper__P0_3X:nth-child(9) .BoxInline_title__pgSMe",
+      "targets": [
+        ["css=.CategoryMenuModal_boxWrapper__P0_3X:nth-child(9) .BoxInline_title__pgSMe", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div/div[2]/div/div/div/div[9]/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[9]/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Airfryer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17b984d2-2603-43fa-a4ea-bce87f628a7b",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.RecipeSearch_arrowUp__5jktJ",
+      "targets": [
+        ["css=.RecipeSearch_arrowUp__5jktJ", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[3]/main/section/div[2]/div/div[2]/div/div/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ddd76a5-9ec0-42c4-a7f3-427d36f60c94",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.RecipeSearch_mealTypeControl__pSlgi > .Dropdown-arrow-wrapper",
+      "targets": [
+        ["css=.RecipeSearch_mealTypeControl__pSlgi > .Dropdown-arrow-wrapper", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[3]/main/section/div[2]/div/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2186be32-1b57-44c7-8956-827cd3f0d023",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RecipeSearch_mealTypeControl__pSlgi > .Dropdown-arrow-wrapper",
+      "targets": [
+        ["css=.RecipeSearch_mealTypeControl__pSlgi > .Dropdown-arrow-wrapper", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[3]/main/section/div[2]/div/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "515bb421-b1f3-4952-abfd-217524ad8522",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.py-0 > .justify-content-between",
+      "targets": [
+        ["css=.py-0 > .justify-content-between", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[3]/main/section[2]/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90c807e9-fede-4997-9353-304634b57e03",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "252d140f-a8dd-40be-b4a6-3c6da5bc6581",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ContentRecipe_commentContainer__EvUcp:nth-child(2) .Comment_commentText__5thK9",
+      "targets": [
+        ["css=.ContentRecipe_commentContainer__EvUcp:nth-child(2) .Comment_commentText__5thK9", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[3]/main/section[3]/div/div[2]/div/div/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cd04b0f-7cf5-45ce-a523-5abb70cd57d0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ContentRecipe_commentContainer__EvUcp:nth-child(2) .Comment_commentText__5thK9",
+      "targets": [
+        ["css=.ContentRecipe_commentContainer__EvUcp:nth-child(2) .Comment_commentText__5thK9", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[3]/main/section[3]/div/div[2]/div/div/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "benana\\n"
+    }]
+  }],
+  "suites": [{
+    "id": "826988ae-aade-4452-acfe-cb8f5a5aea15",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0f3ea76c-9225-436c-93ca-ccb48f03a0dd"]
+  }],
+  "urls": ["https://yemek.com/"],
+  "plugins": []
+}
