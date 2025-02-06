@@ -1,0 +1,22 @@
+Card ID,Card Name,Card URL,Card Description,Labels,Members,Due Date,Attachment Count,Attachment Links,Checklist Item Total Count,Checklist Item Completed Count,Vote Count,Comment Count,Last Activity Date,List ID,List Name,Board ID,Board Name,Archived,Start Date,Due Complete
+67a4700c34ea731ea93fb683,Sign up Scenerios,https://trello.com/c/dVAemO5H/1-sign-up-scenerios,"'- Sign Up gerekli alanlar:
+  - username : String
+    - **3 <= username uzunluk <= 50**
+  - email :String
+    - **Email format**
+  - password: Int
+    - **3<= password<=20**
+- SignUp redirections:
+  - Giriş yapmak için tıklayın
+  - Şifre göster/gizle
+  - Aydınlatma metnini okuma
+  - Kullanım koşulları
+  - Kişisel verilerin korunması politikası
+  - Facebook ile kaydol
+  - Kapat",,,,1,https://trello.com/1/cards/67a4700c34ea731ea93fb683/attachments/67a4700d34ea731ea93fb87d/download/signup1.png,32,0,0,0,2025-02-06T08:17:17.638Z,67a4700c34ea731ea93fb5b5,To do,67a4700c34ea731ea93fb5b4,yemek.com sayfa senaryoları,false,,false
+67a4700c34ea731ea93fb685,Login Test Scenerios,https://trello.com/c/c1pXjhZ0/2-login-test-scenerios,"'- **Username:**
+  - **3<= username <=250**
+- **Email:**
+  - **3<= email<=250**
+- **Password:**
+  - **3<= password<=20**",(orange),,,1,https://trello.com/1/cards/67a4700c34ea731ea93fb685/attachments/67a4700d34ea731ea93fb875/download/Ekran_g%C3%B6r%C3%BCnt%C3%BCs%C3%BC_2025-02-06_100651.png,19,0,0,0,2025-02-06T08:17:17.856Z,67a4700c34ea731ea93fb5b5,To do,67a4700c34ea731ea93fb5b4,yemek.com sayfa senaryoları,false,,false
